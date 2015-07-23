@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDBD17A21B5FF8CB00D42479 /* matrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBD17A11B5FF8CB00D42479 /* matrixViewController.m */; };
 		DDBD37851B5E7DE0005F2C9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBD37841B5E7DE0005F2C9F /* main.m */; };
 		DDBD37881B5E7DE0005F2C9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBD37871B5E7DE0005F2C9F /* AppDelegate.m */; };
 		DDBD378B1B5E7DE0005F2C9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBD378A1B5E7DE0005F2C9F /* ViewController.m */; };
@@ -14,6 +15,11 @@
 		DDBD37901B5E7DE0005F2C9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBD378F1B5E7DE0005F2C9F /* Images.xcassets */; };
 		DDBD37931B5E7DE0005F2C9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDBD37911B5E7DE0005F2C9F /* LaunchScreen.xib */; };
 		DDBD379F1B5E7DE0005F2C9F /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBD379E1B5E7DE0005F2C9F /* __Tests.m */; };
+		DDBD37AA1B5E8695005F2C9F /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBD37A91B5E8695005F2C9F /* CameraViewController.m */; };
+		DDBD37AD1B5E8D88005F2C9F /* RepeatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBD37AC1B5E8D88005F2C9F /* RepeatButton.m */; };
+		DDBD37B01B5F04CD005F2C9F /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBD37AF1B5F04CD005F2C9F /* GCDAsyncSocket.m */; };
+		DDBD37B31B5F0778005F2C9F /* VolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBD37B21B5F0778005F2C9F /* VolViewController.m */; };
+		DDBE87951B60430F0064391D /* powerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBE87941B60430F0064391D /* powerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DDBD17A01B5FF8CB00D42479 /* matrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrixViewController.h; sourceTree = "<group>"; };
+		DDBD17A11B5FF8CB00D42479 /* matrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = matrixViewController.m; sourceTree = "<group>"; };
 		DDBD377F1B5E7DE0005F2C9F /* 抚顺.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抚顺.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBD37831B5E7DE0005F2C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDBD37841B5E7DE0005F2C9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,16 @@
 		DDBD37981B5E7DE0005F2C9F /* 抚顺Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "抚顺Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBD379D1B5E7DE0005F2C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDBD379E1B5E7DE0005F2C9F /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		DDBD37A81B5E8695005F2C9F /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		DDBD37A91B5E8695005F2C9F /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		DDBD37AB1B5E8D88005F2C9F /* RepeatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatButton.h; sourceTree = "<group>"; };
+		DDBD37AC1B5E8D88005F2C9F /* RepeatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatButton.m; sourceTree = "<group>"; };
+		DDBD37AE1B5F04CD005F2C9F /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		DDBD37AF1B5F04CD005F2C9F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		DDBD37B11B5F0778005F2C9F /* VolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolViewController.h; sourceTree = "<group>"; };
+		DDBD37B21B5F0778005F2C9F /* VolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolViewController.m; sourceTree = "<group>"; };
+		DDBE87931B60430F0064391D /* powerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = powerViewController.h; sourceTree = "<group>"; };
+		DDBE87941B60430F0064391D /* powerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = powerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,8 @@
 		DDBD37811B5E7DE0005F2C9F /* 抚顺 */ = {
 			isa = PBXGroup;
 			children = (
+				DDBD37AB1B5E8D88005F2C9F /* RepeatButton.h */,
+				DDBD37AC1B5E8D88005F2C9F /* RepeatButton.m */,
 				DDBD37861B5E7DE0005F2C9F /* AppDelegate.h */,
 				DDBD37871B5E7DE0005F2C9F /* AppDelegate.m */,
 				DDBD37891B5E7DE0005F2C9F /* ViewController.h */,
@@ -89,6 +109,16 @@
 				DDBD378F1B5E7DE0005F2C9F /* Images.xcassets */,
 				DDBD37911B5E7DE0005F2C9F /* LaunchScreen.xib */,
 				DDBD37821B5E7DE0005F2C9F /* Supporting Files */,
+				DDBD37A81B5E8695005F2C9F /* CameraViewController.h */,
+				DDBD37A91B5E8695005F2C9F /* CameraViewController.m */,
+				DDBD37AE1B5F04CD005F2C9F /* GCDAsyncSocket.h */,
+				DDBD37AF1B5F04CD005F2C9F /* GCDAsyncSocket.m */,
+				DDBD37B11B5F0778005F2C9F /* VolViewController.h */,
+				DDBD37B21B5F0778005F2C9F /* VolViewController.m */,
+				DDBD17A01B5FF8CB00D42479 /* matrixViewController.h */,
+				DDBD17A11B5FF8CB00D42479 /* matrixViewController.m */,
+				DDBE87931B60430F0064391D /* powerViewController.h */,
+				DDBE87941B60430F0064391D /* powerViewController.m */,
 			);
 			path = "抚顺";
 			sourceTree = "<group>";
@@ -219,8 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDBD37B01B5F04CD005F2C9F /* GCDAsyncSocket.m in Sources */,
+				DDBE87951B60430F0064391D /* powerViewController.m in Sources */,
 				DDBD378B1B5E7DE0005F2C9F /* ViewController.m in Sources */,
+				DDBD37AA1B5E8695005F2C9F /* CameraViewController.m in Sources */,
+				DDBD37B31B5F0778005F2C9F /* VolViewController.m in Sources */,
 				DDBD37881B5E7DE0005F2C9F /* AppDelegate.m in Sources */,
+				DDBD17A21B5FF8CB00D42479 /* matrixViewController.m in Sources */,
+				DDBD37AD1B5E8D88005F2C9F /* RepeatButton.m in Sources */,
 				DDBD37851B5E7DE0005F2C9F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +454,7 @@
 				DDBD37A41B5E7DE0005F2C9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDBD37A51B5E7DE0005F2C9F /* Build configuration list for PBXNativeTarget "抚顺Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +463,7 @@
 				DDBD37A71B5E7DE0005F2C9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
