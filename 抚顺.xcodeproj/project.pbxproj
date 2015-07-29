@@ -20,6 +20,30 @@
 		DDBD37B01B5F04CD005F2C9F /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBD37AF1B5F04CD005F2C9F /* GCDAsyncSocket.m */; };
 		DDBD37B31B5F0778005F2C9F /* VolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBD37B21B5F0778005F2C9F /* VolViewController.m */; };
 		DDBE87951B60430F0064391D /* powerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBE87941B60430F0064391D /* powerViewController.m */; };
+		DDC487781B66846F00522410 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487771B66846F00522410 /* background.png */; };
+		DDC4877C1B668A2200522410 /* camera_icon30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC4877B1B668A2200522410 /* camera_icon30x30.png */; };
+		DDC487801B668B5E00522410 /* matrix30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC4877D1B668B5E00522410 /* matrix30x30.png */; };
+		DDC487811B668B5E00522410 /* mic30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC4877E1B668B5E00522410 /* mic30x30.png */; };
+		DDC487821B668B5E00522410 /* power30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC4877F1B668B5E00522410 /* power30x30.png */; };
+		DDC487871B66929F00522410 /* camera_down.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487851B66929F00522410 /* camera_down.png */; };
+		DDC487881B66929F00522410 /* camera_left.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487861B66929F00522410 /* camera_left.png */; };
+		DDC4878A1B6692B100522410 /* camera_up.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487891B6692B100522410 /* camera_up.png */; };
+		DDC4878F1B66938700522410 /* camera_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC4878D1B66938700522410 /* camera_plus.png */; };
+		DDC487901B66938700522410 /* camera_sub.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC4878E1B66938700522410 /* camera_sub.png */; };
+		DDC487921B6693F800522410 /* camera_right.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487911B6693F800522410 /* camera_right.png */; };
+		DDC487941B66949800522410 /* camera_btnBack.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487931B66949800522410 /* camera_btnBack.png */; };
+		DDC487961B66962400522410 /* camera_btnBackBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487951B66962400522410 /* camera_btnBackBlue.png */; };
+		DDC487991B669AE900522410 /* matrixBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487981B669AE900522410 /* matrixBtn.png */; };
+		DDC4879B1B669CE000522410 /* mute.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC4879A1B669CE000522410 /* mute.png */; };
+		DDC4879D1B669D4000522410 /* mute_down.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC4879C1B669D4000522410 /* mute_down.png */; };
+		DDC487A31B66A01500522410 /* headset.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC4879F1B66A01500522410 /* headset.png */; };
+		DDC487A41B66A01500522410 /* lamptop.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487A01B66A01500522410 /* lamptop.png */; };
+		DDC487A51B66A01500522410 /* mic.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487A11B66A01500522410 /* mic.png */; };
+		DDC487A61B66A01500522410 /* termimal.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487A21B66A01500522410 /* termimal.png */; };
+		DDC487AA1B66A53A00522410 /* power_amp.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487A71B66A53A00522410 /* power_amp.png */; };
+		DDC487AB1B66A53A00522410 /* power_vol.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487A81B66A53A00522410 /* power_vol.png */; };
+		DDC487AC1B66A53A00522410 /* tv.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487A91B66A53A00522410 /* tv.png */; };
+		DDC487AF1B66A5BC00522410 /* netUpload.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC487AE1B66A5BC00522410 /* netUpload.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +82,31 @@
 		DDBD37B21B5F0778005F2C9F /* VolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolViewController.m; sourceTree = "<group>"; };
 		DDBE87931B60430F0064391D /* powerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = powerViewController.h; sourceTree = "<group>"; };
 		DDBE87941B60430F0064391D /* powerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = powerViewController.m; sourceTree = "<group>"; };
+		DDC487771B66846F00522410 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		DDC487791B6687DD00522410 /* camera_icon */ = {isa = PBXFileReference; lastKnownFileType = file; path = camera_icon; sourceTree = "<group>"; };
+		DDC4877B1B668A2200522410 /* camera_icon30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_icon30x30.png; sourceTree = "<group>"; };
+		DDC4877D1B668B5E00522410 /* matrix30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matrix30x30.png; sourceTree = "<group>"; };
+		DDC4877E1B668B5E00522410 /* mic30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic30x30.png; sourceTree = "<group>"; };
+		DDC4877F1B668B5E00522410 /* power30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power30x30.png; sourceTree = "<group>"; };
+		DDC487851B66929F00522410 /* camera_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_down.png; sourceTree = "<group>"; };
+		DDC487861B66929F00522410 /* camera_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_left.png; sourceTree = "<group>"; };
+		DDC487891B6692B100522410 /* camera_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_up.png; sourceTree = "<group>"; };
+		DDC4878D1B66938700522410 /* camera_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_plus.png; sourceTree = "<group>"; };
+		DDC4878E1B66938700522410 /* camera_sub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_sub.png; sourceTree = "<group>"; };
+		DDC487911B6693F800522410 /* camera_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_right.png; sourceTree = "<group>"; };
+		DDC487931B66949800522410 /* camera_btnBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_btnBack.png; sourceTree = "<group>"; };
+		DDC487951B66962400522410 /* camera_btnBackBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_btnBackBlue.png; sourceTree = "<group>"; };
+		DDC487981B669AE900522410 /* matrixBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matrixBtn.png; sourceTree = "<group>"; };
+		DDC4879A1B669CE000522410 /* mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mute.png; sourceTree = "<group>"; };
+		DDC4879C1B669D4000522410 /* mute_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mute_down.png; sourceTree = "<group>"; };
+		DDC4879F1B66A01500522410 /* headset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headset.png; sourceTree = "<group>"; };
+		DDC487A01B66A01500522410 /* lamptop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamptop.png; sourceTree = "<group>"; };
+		DDC487A11B66A01500522410 /* mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic.png; sourceTree = "<group>"; };
+		DDC487A21B66A01500522410 /* termimal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = termimal.png; sourceTree = "<group>"; };
+		DDC487A71B66A53A00522410 /* power_amp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power_amp.png; sourceTree = "<group>"; };
+		DDC487A81B66A53A00522410 /* power_vol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power_vol.png; sourceTree = "<group>"; };
+		DDC487A91B66A53A00522410 /* tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv.png; sourceTree = "<group>"; };
+		DDC487AE1B66A5BC00522410 /* netUpload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = netUpload.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +148,7 @@
 		DDBD37811B5E7DE0005F2C9F /* 抚顺 */ = {
 			isa = PBXGroup;
 			children = (
+				DDC487761B66846500522410 /* pic */,
 				DDBD37AB1B5E8D88005F2C9F /* RepeatButton.h */,
 				DDBD37AC1B5E8D88005F2C9F /* RepeatButton.m */,
 				DDBD37861B5E7DE0005F2C9F /* AppDelegate.h */,
@@ -147,6 +197,62 @@
 				DDBD379D1B5E7DE0005F2C9F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDC487761B66846500522410 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				DDC487AD1B66A54100522410 /* power */,
+				DDC4879E1B669D4400522410 /* vol */,
+				DDC487971B66962F00522410 /* camera */,
+				DDC487771B66846F00522410 /* background.png */,
+				DDC487791B6687DD00522410 /* camera_icon */,
+				DDC4877B1B668A2200522410 /* camera_icon30x30.png */,
+				DDC4877D1B668B5E00522410 /* matrix30x30.png */,
+				DDC4877E1B668B5E00522410 /* mic30x30.png */,
+				DDC4877F1B668B5E00522410 /* power30x30.png */,
+				DDC487981B669AE900522410 /* matrixBtn.png */,
+			);
+			name = pic;
+			sourceTree = "<group>";
+		};
+		DDC487971B66962F00522410 /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				DDC487851B66929F00522410 /* camera_down.png */,
+				DDC487861B66929F00522410 /* camera_left.png */,
+				DDC487891B6692B100522410 /* camera_up.png */,
+				DDC4878D1B66938700522410 /* camera_plus.png */,
+				DDC4878E1B66938700522410 /* camera_sub.png */,
+				DDC487911B6693F800522410 /* camera_right.png */,
+				DDC487931B66949800522410 /* camera_btnBack.png */,
+				DDC487951B66962400522410 /* camera_btnBackBlue.png */,
+			);
+			name = camera;
+			sourceTree = "<group>";
+		};
+		DDC4879E1B669D4400522410 /* vol */ = {
+			isa = PBXGroup;
+			children = (
+				DDC4879A1B669CE000522410 /* mute.png */,
+				DDC4879C1B669D4000522410 /* mute_down.png */,
+				DDC4879F1B66A01500522410 /* headset.png */,
+				DDC487A01B66A01500522410 /* lamptop.png */,
+				DDC487A11B66A01500522410 /* mic.png */,
+				DDC487A21B66A01500522410 /* termimal.png */,
+			);
+			name = vol;
+			sourceTree = "<group>";
+		};
+		DDC487AD1B66A54100522410 /* power */ = {
+			isa = PBXGroup;
+			children = (
+				DDC487A71B66A53A00522410 /* power_amp.png */,
+				DDC487A81B66A53A00522410 /* power_vol.png */,
+				DDC487A91B66A53A00522410 /* tv.png */,
+				DDC487AE1B66A5BC00522410 /* netUpload.png */,
+			);
+			name = power;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +336,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDBD378E1B5E7DE0005F2C9F /* Main.storyboard in Resources */,
+				DDC4879D1B669D4000522410 /* mute_down.png in Resources */,
+				DDC487781B66846F00522410 /* background.png in Resources */,
+				DDC4879B1B669CE000522410 /* mute.png in Resources */,
+				DDC487AB1B66A53A00522410 /* power_vol.png in Resources */,
+				DDC487A31B66A01500522410 /* headset.png in Resources */,
+				DDC4877C1B668A2200522410 /* camera_icon30x30.png in Resources */,
+				DDC487A61B66A01500522410 /* termimal.png in Resources */,
+				DDC487921B6693F800522410 /* camera_right.png in Resources */,
+				DDC4878A1B6692B100522410 /* camera_up.png in Resources */,
+				DDC487901B66938700522410 /* camera_sub.png in Resources */,
+				DDC487801B668B5E00522410 /* matrix30x30.png in Resources */,
+				DDC487A41B66A01500522410 /* lamptop.png in Resources */,
+				DDC487AC1B66A53A00522410 /* tv.png in Resources */,
+				DDC487821B668B5E00522410 /* power30x30.png in Resources */,
+				DDC487941B66949800522410 /* camera_btnBack.png in Resources */,
+				DDC487881B66929F00522410 /* camera_left.png in Resources */,
+				DDC487871B66929F00522410 /* camera_down.png in Resources */,
+				DDC487991B669AE900522410 /* matrixBtn.png in Resources */,
+				DDC487AF1B66A5BC00522410 /* netUpload.png in Resources */,
 				DDBD37931B5E7DE0005F2C9F /* LaunchScreen.xib in Resources */,
+				DDC487AA1B66A53A00522410 /* power_amp.png in Resources */,
 				DDBD37901B5E7DE0005F2C9F /* Images.xcassets in Resources */,
+				DDC487811B668B5E00522410 /* mic30x30.png in Resources */,
+				DDC487961B66962400522410 /* camera_btnBackBlue.png in Resources */,
+				DDC4878F1B66938700522410 /* camera_plus.png in Resources */,
+				DDC487A51B66A01500522410 /* mic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +517,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Yunce Network Technology Co., Ltd.";
 				INFOPLIST_FILE = "抚顺/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "aac63f90-fa8f-4a57-b361-3783ffc314a0";
@@ -399,6 +530,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Yunce Network Technology Co., Ltd.";
 				INFOPLIST_FILE = "抚顺/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "aac63f90-fa8f-4a57-b361-3783ffc314a0";

@@ -28,8 +28,19 @@
 //    [self.cam1_recall setSelected:NO];
 //    [self.cam2_save setSelected:YES];
 //    [self.cam2_recall setSelected:NO];
-    
+    UIButton *btnSave = (UIButton *)[self.view viewWithTag:1307];
+     UIButton *btnRecall = (UIButton *)[self.view viewWithTag:1308];
+    UIButton *btnSave2 = (UIButton *)[self.view viewWithTag:1357];
+    UIButton *btnRecall2 = (UIButton *)[self.view viewWithTag:1358];
 
+    [btnSave setBackgroundImage:[UIImage imageNamed:@"camera_btnBackBlue.png"] forState:UIControlStateSelected];
+    [btnRecall setBackgroundImage:[UIImage imageNamed:@"camera_btnBackBlue.png"] forState:UIControlStateSelected];
+    [btnSave2 setBackgroundImage:[UIImage imageNamed:@"camera_btnBackBlue.png"] forState:UIControlStateSelected];
+    [btnRecall2 setBackgroundImage:[UIImage imageNamed:@"camera_btnBackBlue.png"] forState:UIControlStateSelected];
+    
+    
+    
+    
     
 }
 

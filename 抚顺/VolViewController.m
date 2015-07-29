@@ -18,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    for (long i = 1211; i <= 1215; i++) {
+        UIButton *btn = (UIButton *)[self.view viewWithTag:i];
+        [btn setBackgroundImage:[UIImage imageNamed:@"mute_down.png"] forState:UIControlStateSelected];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
