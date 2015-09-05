@@ -11,6 +11,7 @@
 
 
 #define HOST @"192.168.1.127"
+//#define HOST @"192.168.2.105"
 #define PORT 3003
 
 @interface AppDelegate ()

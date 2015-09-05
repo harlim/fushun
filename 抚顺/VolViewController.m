@@ -10,6 +10,16 @@
 #import "AppDelegate.h"
 
 @interface VolViewController ()
+@property (strong, nonatomic) IBOutlet UISlider *vol1;
+@property (strong, nonatomic) IBOutlet UISlider *vol2;
+@property (strong, nonatomic) IBOutlet UISlider *vol3;
+@property (strong, nonatomic) IBOutlet UISlider *vol4;
+@property (strong, nonatomic) IBOutlet UISlider *vol5;
+@property (strong, nonatomic) IBOutlet UIButton *vol_mute_1;
+@property (strong, nonatomic) IBOutlet UIButton *vol_mute_2;
+@property (strong, nonatomic) IBOutlet UIButton *vol_mute_3;
+@property (strong, nonatomic) IBOutlet UIButton *vol_mute_4;
+@property (strong, nonatomic) IBOutlet UIButton *vol_mute_5;
 
 @end
 
@@ -21,7 +31,21 @@
     for (long i = 1211; i <= 1215; i++) {
         UIButton *btn = (UIButton *)[self.view viewWithTag:i];
         [btn setBackgroundImage:[UIImage imageNamed:@"mute_down.png"] forState:UIControlStateSelected];
+        NSNumber *isSelect = [[NSUserDefaults standardUserDefaults] objectForKey:[NSString stringWithFormat:@"%ld",i]];
+        if (isSelect && [isSelect intValue] == 1) {
+            [btn setSelected:YES];
+        }
     }
+    
+    for (long i = 1201; i <= 1205; i++) {
+        UISlider *slider = (UISlider *)[self.view viewWithTag:i];
+        NSNumber *sliderValue = [[NSUserDefaults standardUserDefaults] objectForKey:[NSString stringWithFormat:@"%ld",i]];
+        if (sliderValue) {
+            [slider setValue:[sliderValue floatValue]];
+        }
+    }
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,6 +56,11 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:YES];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeTheView:) name:@"RevData" object:nil];
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:YES];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 - (void)dealloc{
@@ -50,6 +79,7 @@
     }else if (sender.tag == 1205) {
         [[AppDelegate app] sendCom:[NSString stringWithFormat:@"BE%03d",(int)sender.value]];
     }
+    [[NSUserDefaults standardUserDefaults]setValue:[NSNumber numberWithInteger:(int)sender.value] forKey:[NSString stringWithFormat: @"%d", (int)sender.tag]];
 }
 
 - (IBAction)muteChange:(UIButton *)sender {
@@ -65,14 +95,13 @@
     }else if (sender.tag == 1215) {
         [[AppDelegate app] sendCom:[NSString stringWithFormat:@"BJ%03d",sender.selected?1:0]];
     }
+    [[NSUserDefaults standardUserDefaults]setValue:[NSNumber numberWithInteger:sender.selected?1:0] forKey:[NSString stringWithFormat: @"%d", (int)sender.tag]];
     
 }
 
 -(void)changeTheView:(id)sender{
     NSString *rev = [[sender userInfo] objectForKey:@"rev"];    //0,000,0,000,0,000,0,000,0,000   这样的格式，第一位是静音，三四五位是音量
-    
-
-    
+ 
     NSString *str = [rev substringWithRange:NSMakeRange(0, 1)];
     [self changeTheMute:(UIButton *)[self.view viewWithTag:1211]  withMuteStr:str];
     
